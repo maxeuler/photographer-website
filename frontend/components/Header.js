@@ -30,7 +30,7 @@ const Nav = styled.nav`
 	}
 `;
 
-const Logo = styled.div`
+export const Logo = styled.div`
 	height: 10rem;
 	margin-left: 2rem;
 	img {
