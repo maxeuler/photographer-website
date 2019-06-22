@@ -50,7 +50,6 @@ const Header = props => (
 		</Logo>
 		<Nav>
 			<a href="">Portfolio</a>
-			<a href="">Sina</a>
 			<a href="">Kontakt</a>
 		</Nav>
 	</StyledHeader>

@@ -13,11 +13,52 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Profile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Profile */ "./components/Profile.js");
 
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Landing.js";
 
+function _templateObject6() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmax-width: 1300px;\n\tpadding: 0 2rem;\n\tmargin: 0 auto;\n\t@media (max-width: 700px) {\n\t\tpadding: 0;\n\t\t.hr {\n\t\t\tdisplay: none;\n\t\t}\n\t\t.second_heading {\n\t\t\tdisplay: none;\n\t\t}\n\t}\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tfont-size: 10rem;\n\tfont-weight: 300;\n\ttext-align: center;\n\tmargin: 2.5rem 0;\n\ttext-transform: uppercase;\n\t@media (max-width: 1200px) {\n\t\tfont-size: 7.5rem;\n\t}\n\t@media (max-width: 900px) {\n\t\tfont-size: 4rem;\n\t\tmargin-bottom: 0;\n\t}\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 2rem auto;\n\tdisplay: block;\n\twidth: 40%;\n\ttext-align: center;\n\tpadding: 1rem 2rem;\n\ttext-decoration: none;\n\tbackground: none;\n\tfont-size: 2rem;\n\tfont-weight: 300;\n\tcolor: ", ";\n\tborder: 1px solid ", ";\n\tborder-radius: 3rem;\n\toutline: none;\n\t@media (min-width: 700px) {\n\t\tdisplay: none;\n\t}\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 0 auto;\n\ttext-decoration: none;\n\tbackground: none;\n\tfont-size: 3rem;\n\tfont-weight: 300;\n\tcolor: #fff;\n\tborder: 2px solid #fff;\n\tpadding: 1rem 2rem;\n\tborder-radius: 3rem;\n\topacity: 0.5;\n\tcursor: pointer;\n\toutline: none;\n\t:hover,\n\t:active {\n\t\topacity: 1;\n\t}\n\t@media (max-width: 700px) {\n\t\tfont-size: 2rem;\n\t\topacity: 0.8;\n\t\tdisplay: none;\n\t}\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tfont-size: 10rem;\n\tfont-weight: 300;\n\ttext-align: center;\n\tmargin: 2.5rem 0;\n\tmargin-bottom: 0;\n\ttext-transform: uppercase;\n\t@media (max-width: 1200px) {\n\t\tfont-size: 7.5rem;\n\t}\n\t@media (max-width: 900px) {\n\t\tfont-size: 4rem;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\twidth: 100%;\n\theight: 70vh;\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-image: url('./static/girl.jpg'); /* https://www.pexels.com/photo/woman-holding-black-camera-1854897/ */\n\tbackground-position: center;\n\tbackground-size: cover;\n\tdisplay: flex;\n\talign-items: center;\n\n\t@media (max-width: 700px) {\n\t\theight: 50vh;\n\t\ta {\n\t\t\tfont-size: 2rem;\n\t\t\topacity: 0.8;\n\t\t\tdisplay: none;\n\t\t}\n\t}\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -27,7 +68,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\twidth: 100%;\n\theight: 70vh;\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-image: url('./static/girl.jpg'); /* https://www.pexels.com/photo/woman-holding-black-camera-1854897/ */\n\tbackground-position: center;\n\tbackground-size: cover;\n\tdisplay: flex;\n\talign-items: center;\n\tbutton {\n\t\tmargin: 0 auto;\n\t\tbackground: none;\n\t\tfont-size: 3rem;\n\t\tfont-weight: 300;\n\t\tcolor: #fff;\n\t\tborder: 2px solid #fff;\n\t\tpadding: 1rem 2rem;\n\t\tborder-radius: 3rem;\n\t\topacity: 0.5;\n\t\tcursor: pointer;\n\t\toutline: none;\n\t\t:hover,\n\t\t:active {\n\t\t\topacity: 1;\n\t\t}\n\t}\n\t@media (max-width: 700px) {\n\t\theight: 40vh;\n\t\tbutton {\n\t\t\tfont-size: 2rem;\n\t\t\topacity: 0.8;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t@media (max-width: 700px) {\n\t\theight: 100vh;\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -38,32 +79,202 @@ function _templateObject() {
 
 
 
-var LandingImage = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
-var Heading = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h3(_templateObject2());
+
+var LandingPage = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
+var LandingImage = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject2());
+var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject3());
+var MobileLink = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject4(), function (props) {
+  return props.theme.primary;
+}, function (props) {
+  return props.theme.primary;
+});
+var Heading = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h3(_templateObject5());
+var Inner = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject6());
 
 var Landing = function Landing(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(LandingImage, {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(LandingPage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 107
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(LandingImage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 108
     },
     __self: this
-  }, "Entdecken")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
+    href: "#profile_section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 109
     },
     __self: this
-  }, "sndrnhm fotografie"));
+  }, "Entdecken")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Inner, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, "sndrnhm fotografie"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", {
+    className: "hr",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Heading, {
+    id: "profile_section",
+    className: "second_heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }, "Fotos mit Herz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MobileLink, {
+    href: "#profile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, "Entdecken"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "profile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Profile__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Landing);
+
+/***/ }),
+
+/***/ "./components/Profile.js":
+/*!*******************************!*\
+  !*** ./components/Profile.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Profile.js";
+
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tdisplay: grid;\n\tgrid-template-columns: 50% 50%;\n\tmargin: 5rem 0;\n\t@media (max-width: 700px) {\n\t\tgrid-template-columns: 100%;\n\t\tgrid-template-rows: 1fr 200px;\n\t\tgrid-row-gap: 20px;\n\t\tmargin-top: 0;\n\t\t:first-child {\n\t\t\tgrid-row: 2;\n\t\t}\n\t}\n\t.text {\n\t\tpadding: 3rem;\n\t\ttext-align: center;\n\t\theight: 100%;\n\t\tp {\n\t\t\tfont-size: 2rem;\n\t\t\tfont-weight: 300;\n\t\t}\n\t\th3 {\n\t\t\tfont-weight: 300;\n\t\t\tfont-size: 4rem;\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t}\n\t\t.signature {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',\n\t\t\t\t'Lucida Sans', Arial, sans-serif;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tpadding: 1rem;\n\t\t\tp {\n\t\t\t\tfont-size: 1.5rem;\n\t\t\t}\n\t\t\th3 {\n\t\t\t\tfont-size: 3rem;\n\t\t\t}\n\t\t\t.signature {\n\t\t\t\tfont-size: 2rem;\n\t\t\t}\n\t\t}\n\t}\n\t.img {\n\t\tbackground-image: url('./static/browngirl.jpeg');\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t\t@media (max-width: 700px) {\n\t\t\tbackground-size: cover;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t}\n\t}\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
+
+var Profile = function Profile(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Profil"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consetetur"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Eure,"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "signature",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, "Sina")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "img",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Profile);
 
 /***/ }),
 

@@ -1,11 +1,13 @@
 import React from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const GlobalStyle = createGlobalStyle`
   html {
     font-size: 10px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   *,*:before, *:after {
     box-sizing: inherit;
@@ -24,18 +26,13 @@ const theme = {
 	secondary: '#eee'
 };
 
-// const Inner = styled.div`
-// 	max-width: 1500px;
-// 	padding: 2rem;
-// 	margin: 0 auto;
-// `;
-
 const Page = props => (
 	<ThemeProvider theme={theme}>
 		<>
 			<GlobalStyle />
 			<Header />
 			{props.children}
+			<Footer />
 		</>
 	</ThemeProvider>
 );
