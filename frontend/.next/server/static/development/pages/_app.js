@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Footer.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 150px;\n\tmargin-top: 10rem;\n\tbackground: ", ";\n\tdisplay: grid;\n\tgrid-template-columns: repeat(3, 33%);\n\tcolor: #fff;\n\t.logo {\n\t\theight: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\th3 {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-weight: 300;\n\t\t\tmargin-left: 2rem;\n\t\t}\n\t}\n\t.links {\n\t\tdisplay: grid;\n\t\tgrid-template-columns: 1fr;\n\t\tgrid-template-rows: repeat(3, auto);\n\t\ttext-align: center;\n\t\tmargin: 1rem 0;\n\t\tpadding: 1rem;\n\t\talign-items: center;\n\t\ta {\n\t\t\tfont-size: 1.5rem;\n\t\t\ttext-align: center;\n\t\t\tcolor: #fff;\n\t\t\ttext-decoration: none;\n\t\t}\n\t}\n\t.follow {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\ta {\n\t\t\tcolor: #fff;\n\t\t\tpadding: 2rem;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 150px;\n\tmargin-top: 10rem;\n\tbackground: ", ";\n\tdisplay: grid;\n\tgrid-template-columns: repeat(3, 33%);\n\tcolor: #fff;\n\t@media (max-width: 700px) {\n\t\tgrid-template-columns: 20% 80%;\n\t\tpadding-bottom: 2rem;\n\t}\n\t.logo {\n\t\theight: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\th3 {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-weight: 300;\n\t\t\tmargin-left: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\th3 {\n\t\t\t\tdisplay: none;\n\t\t\t}\n\t\t}\n\t}\n\t.links {\n\t\tdisplay: grid;\n\t\tgrid-template-columns: 1fr;\n\t\tgrid-template-rows: repeat(3, auto);\n\t\ttext-align: center;\n\t\tmargin: 1rem 0;\n\t\tpadding: 1rem;\n\t\talign-items: center;\n\t\t@media (max-width: 700px) {\n\t\t\tgrid-template-columns: repeat(3, auto);\n\t\t}\n\t\ta {\n\t\t\tfont-size: 1.5rem;\n\t\t\ttext-align: center;\n\t\t\tcolor: #fff;\n\t\t\ttext-decoration: none;\n\t\t}\n\t}\n\t.follow {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\ta {\n\t\t\tcolor: #fff;\n\t\t\tpadding: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tjustify-content: space-around;\n\t\t\twidth: 100vw;\n\t\t\talign-items: center;\n\t\t\ta {\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t\tfont-size: 1rem;\n\t\t\t\tsize: '4x';\n\t\t\t}\n\t\t}\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -138,20 +138,20 @@ var Footer = function Footer(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledFooter, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["Logo"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -159,27 +159,55 @@ var Footer = function Footer(props) {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 82
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 84
     },
     __self: this
   }, "sndrnhm fotografie")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "follow",
+    className: "links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 87
+    },
+    __self: this
+  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Was wei\xDF ich")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "follow",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -187,14 +215,14 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 93
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -202,14 +230,14 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 96
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 98
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -217,38 +245,10 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 99
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "links",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "Was wei\xDF ich")));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
