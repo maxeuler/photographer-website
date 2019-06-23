@@ -9,8 +9,7 @@ import {
 import { Logo } from './Header';
 
 const StyledFooter = styled.div`
-	height: 150px;
-	margin-top: 10rem;
+	height: 17vh;
 	background: ${props => props.theme.primary};
 	display: grid;
 	grid-template-columns: repeat(3, 33%);

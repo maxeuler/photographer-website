@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Profile from './Profile';
+import Footer from './Footer';
 
 const LandingPage = styled.div`
 	@media (max-width: 700px) {
@@ -72,7 +73,7 @@ const MobileLink = styled.a`
 	}
 `;
 
-const Heading = styled.h3`
+export const Heading = styled.h3`
 	font-size: 10rem;
 	font-weight: 300;
 	text-align: center;
@@ -87,7 +88,7 @@ const Heading = styled.h3`
 	}
 `;
 
-const Inner = styled.div`
+export const Inner = styled.div`
 	max-width: 1300px;
 	padding: 0 2rem;
 	margin: 0 auto;
@@ -122,6 +123,7 @@ const Landing = props => (
 		<div id="profile">
 			<Profile />
 		</div>
+		<Footer />
 	</>
 );
 

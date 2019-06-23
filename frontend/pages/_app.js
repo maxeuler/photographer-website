@@ -1,5 +1,6 @@
 import App, { Container } from 'next/app';
 import Page from '../components/Page';
+import Footer from '../components/Footer';
 
 class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {

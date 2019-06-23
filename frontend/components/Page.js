@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 10px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    height: 100%;
   }
   *,*:before, *:after {
     box-sizing: inherit;
@@ -16,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: sans-serif;
     background-color: #fff;
     color: ${props => props.theme.primary};
@@ -33,7 +35,6 @@ const Page = props => (
 			<GlobalStyle />
 			<Header />
 			{props.children}
-			<Footer />
 		</>
 	</ThemeProvider>
 );

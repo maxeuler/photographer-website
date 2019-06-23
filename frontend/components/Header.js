@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const StyledHeader = styled.header`
+	height: 11vh;
 	display: flex;
 	justify-content: space-between;
 	background: #fff;
@@ -33,6 +35,7 @@ const Nav = styled.nav`
 export const Logo = styled.div`
 	height: 10rem;
 	margin-left: 2rem;
+	cursor: pointer;
 	img {
 		padding: 1rem;
 		height: 100%;
@@ -46,10 +49,14 @@ export const Logo = styled.div`
 const Header = props => (
 	<StyledHeader>
 		<Logo>
-			<img src="static/titleIcon.png" alt="" />
+			<Link href="/">
+				<img src="static/titleIcon.png" alt="" />
+			</Link>
 		</Logo>
 		<Nav>
-			<a href="">Portfolio</a>
+			<Link href="/portfolio">
+				<a>Portfolio</a>
+			</Link>
 			<a href="">Kontakt</a>
 		</Nav>
 	</StyledHeader>
