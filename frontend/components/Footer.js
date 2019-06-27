@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faInstagram,
@@ -80,25 +81,39 @@ const Footer = () => (
   <StyledFooter>
     <div className="logo">
       <Logo>
-        <img src="static/iconWhite.png" alt="" />
+        <Link href="/">
+          <img src="static/iconWhite.png" alt="" />
+        </Link>
       </Logo>
       <h3>der fotograf</h3>
     </div>
     <div className="links">
-      <a>Datenschutz</a>
-      <a>Impressum</a>
-      <a>Was weiß ich</a>
+      <Link href="/">
+        <a>Datenschutz</a>
+      </Link>
+      <Link href="/">
+        <a>Impressum</a>
+      </Link>
+      <Link href="/">
+        <a>Privacy Policy</a>
+      </Link>
     </div>
     <div className="follow">
-      <a>
-        <FontAwesomeIcon icon={faInstagram} size="5x" />
-      </a>
-      <a>
-        <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-      </a>
-      <a>
-        <FontAwesomeIcon icon={faTwitter} size="5x" />
-      </a>
+      <Link href="https://www.instagram.com">
+        <a target="blank">
+          <FontAwesomeIcon icon={faInstagram} size="5x" />
+        </a>
+      </Link>
+      <Link href="https://www.facebook.com">
+        <a target="blank">
+          <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+        </a>
+      </Link>
+      <Link href="https://twitter.com">
+        <a target="blank">
+          <FontAwesomeIcon icon={faTwitter} size="5x" />
+        </a>
+      </Link>
     </div>
   </StyledFooter>
 );

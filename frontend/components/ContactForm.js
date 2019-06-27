@@ -41,20 +41,55 @@ const Form = styled.form`
 `;
 
 class ContactForm extends Component {
+  state = {
+    name: '',
+    email: '',
+    reason: 'general',
+    message: '',
+  };
+
+  onChange = ({ target }) => this.setState({ [target.name]: target.value });
+
   render() {
+    const { name, email, reason, message } = this.state;
+
     return (
-      <Form action="POST">
+      <Form
+        action="POST"
+        onSubmit={e => {
+          e.preventDefault();
+          this.props.submit(this.state);
+          this.setState({
+            name: '',
+            email: '',
+            reason: 'general',
+            message: '',
+          });
+        }}
+      >
         <label htmlFor="name">
           Name
-          <input type="text" name="name" />
+          <input
+            type="text"
+            name="name"
+            value={name}
+            onChange={this.onChange}
+            required
+          />
         </label>
         <label htmlFor="email">
           E-Mail
-          <input type="email" name="email" />
+          <input
+            type="email"
+            name="email"
+            value={email}
+            onChange={this.onChange}
+            required
+          />
         </label>
         <label htmlFor="reason">
           Grund für deine Anfrage
-          <select name="reason">
+          <select name="reason" value={reason} onChange={this.onChange}>
             <option value="general">Allgemein</option>
             <option value="shooting">Shooting</option>
             <option value="work">Zusammenarbeit</option>
@@ -62,7 +97,13 @@ class ContactForm extends Component {
         </label>
         <label htmlFor="message">
           Nachricht
-          <textarea name="message" rows="5"></textarea>
+          <textarea
+            name="message"
+            rows="5"
+            value={message}
+            onChange={this.onChange}
+            required
+          ></textarea>
         </label>
         <button type="submit">Absenden</button>
         <br />
