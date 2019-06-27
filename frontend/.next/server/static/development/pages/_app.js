@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Footer.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 17vh;\n\tbackground: ", ";\n\tdisplay: grid;\n\tgrid-template-columns: repeat(3, 33%);\n\tcolor: #fff;\n\t@media (max-width: 700px) {\n\t\tgrid-template-columns: 20% 80%;\n\t\tpadding-bottom: 2rem;\n\t}\n\t.logo {\n\t\theight: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\th3 {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-weight: 300;\n\t\t\tmargin-left: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\th3 {\n\t\t\t\tdisplay: none;\n\t\t\t}\n\t\t}\n\t}\n\t.links {\n\t\tdisplay: grid;\n\t\tgrid-template-columns: 1fr;\n\t\tgrid-template-rows: repeat(3, auto);\n\t\ttext-align: center;\n\t\tmargin: 1rem 0;\n\t\tpadding: 1rem;\n\t\talign-items: center;\n\t\t@media (max-width: 700px) {\n\t\t\tgrid-template-columns: repeat(3, auto);\n\t\t}\n\t\ta {\n\t\t\tfont-size: 1.5rem;\n\t\t\ttext-align: center;\n\t\t\tcolor: #fff;\n\t\t\ttext-decoration: none;\n\t\t}\n\t}\n\t.follow {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\ta {\n\t\t\tcolor: #fff;\n\t\t\tpadding: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tjustify-content: space-around;\n\t\t\twidth: 100vw;\n\t\t\talign-items: center;\n\t\t\ta {\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t\tfont-size: 1rem;\n\t\t\t\tsize: '4x';\n\t\t\t}\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  height: 120px;\n  margin-top: 3rem;\n  width: 100%;\n  background: ", ";\n  display: grid;\n  grid-template-columns: repeat(3, 33%);\n  color: #fff;\n  @media (max-width: 700px) {\n    grid-template-columns: 20% 80%;\n    padding-bottom: 2rem;\n  }\n  .logo {\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    h3 {\n      font-size: 3rem;\n      font-weight: 300;\n      margin-left: 2rem;\n    }\n    @media (max-width: 700px) {\n      h3 {\n        display: none;\n      }\n    }\n  }\n  .links {\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: repeat(3, auto);\n    text-align: center;\n    margin: 1rem 0;\n    padding: 1rem;\n    align-items: center;\n    @media (max-width: 700px) {\n      grid-template-columns: repeat(3, auto);\n    }\n    a {\n      font-size: 1.5rem;\n      text-align: center;\n      color: #fff;\n      text-decoration: none;\n    }\n  }\n  .follow {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    a {\n      color: #fff;\n      padding: 2rem;\n    }\n    @media (max-width: 700px) {\n      justify-content: space-around;\n      width: 100vw;\n      align-items: center;\n      a {\n        margin: 0;\n        padding: 0;\n        font-size: 1rem;\n        size: '4x';\n      }\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -134,80 +134,76 @@ var StyledFooter = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div(
   return props.theme.primary;
 });
 
-var Footer = function Footer(props) {
+var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledFooter, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["Logo"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/titleIcon.png",
+    src: "static/iconWhite.png",
     alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }, "sndrnhm fotografie")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "links",
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, "der fotograf")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
+    },
+    __self: this
+  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
     },
     __self: this
   }, "Was wei\xDF ich")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "follow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -215,14 +211,13 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 94
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -230,14 +225,13 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -245,7 +239,7 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 100
     },
     __self: this
   }))));
@@ -276,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Header.js";
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 10rem;\n\tmargin-left: 2rem;\n\tcursor: pointer;\n\timg {\n\t\tpadding: 1rem;\n\t\theight: 100%;\n\t}\n\t@media (max-width: 700px) {\n\t\tmargin-left: 0;\n\t\theight: 70px;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  height: 10rem;\n  margin-left: 2rem;\n  cursor: pointer;\n  img {\n    padding: 1rem;\n    height: 100%;\n  }\n  @media (max-width: 700px) {\n    margin-left: 0;\n    height: 70px;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -286,7 +280,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 0;\n\tpadding: 0;\n\tdisplay: flex;\n\tjustify-self: end;\n\talign-items: center;\n\ta {\n\t\tfont-size: 2rem;\n\t\tfont-weight: 300;\n\t\ttext-decoration: none;\n\t\tpadding: 1rem 3rem;\n\t\tcolor: ", ";\n\t\t:hover,\n\t\t:active {\n\t\t\tfont-style: italic;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tpadding: 1rem 1rem;\n\t\t\tfont-size: 1.7rem;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 0;\n  padding: 0;\n  display: flex;\n  justify-self: end;\n  align-items: center;\n  a {\n    font-size: 2rem;\n    font-weight: 300;\n    text-decoration: none;\n    padding: 1rem 3rem;\n    color: ", ";\n    :hover,\n    :active {\n      font-style: italic;\n    }\n    @media (max-width: 700px) {\n      padding: 1rem 1rem;\n      font-size: 1.7rem;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -296,7 +290,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 11vh;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tbackground: #fff;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  justify-content: space-between;\n  background: #fff;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -318,57 +312,63 @@ var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/titleIcon.png",
+    src: "static/icon.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 52
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Nav, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 57
     },
     __self: this
-  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Kontakt")));
+  }, "Kontakt"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -389,13 +389,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Page.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    box-sizing: border-box;\n    scroll-behavior: smooth;\n    height: 100%;\n  }\n  *,*:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n    font-family: sans-serif;\n    background-color: #fff;\n    color: ", ";\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  html {\n    font-size: 10px;\n    box-sizing: border-box;\n    scroll-behavior: smooth;\n  }\n  *,*:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    background-color: #fff;\n    color: ", ";\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -421,22 +421,28 @@ var Page = function Page(props) {
     theme: theme,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlobalStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 33
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), props.children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }), props.children));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Page);

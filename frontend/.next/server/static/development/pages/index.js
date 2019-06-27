@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Footer.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 17vh;\n\tbackground: ", ";\n\tdisplay: grid;\n\tgrid-template-columns: repeat(3, 33%);\n\tcolor: #fff;\n\t@media (max-width: 700px) {\n\t\tgrid-template-columns: 20% 80%;\n\t\tpadding-bottom: 2rem;\n\t}\n\t.logo {\n\t\theight: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\th3 {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-weight: 300;\n\t\t\tmargin-left: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\th3 {\n\t\t\t\tdisplay: none;\n\t\t\t}\n\t\t}\n\t}\n\t.links {\n\t\tdisplay: grid;\n\t\tgrid-template-columns: 1fr;\n\t\tgrid-template-rows: repeat(3, auto);\n\t\ttext-align: center;\n\t\tmargin: 1rem 0;\n\t\tpadding: 1rem;\n\t\talign-items: center;\n\t\t@media (max-width: 700px) {\n\t\t\tgrid-template-columns: repeat(3, auto);\n\t\t}\n\t\ta {\n\t\t\tfont-size: 1.5rem;\n\t\t\ttext-align: center;\n\t\t\tcolor: #fff;\n\t\t\ttext-decoration: none;\n\t\t}\n\t}\n\t.follow {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\ta {\n\t\t\tcolor: #fff;\n\t\t\tpadding: 2rem;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tjustify-content: space-around;\n\t\t\twidth: 100vw;\n\t\t\talign-items: center;\n\t\t\ta {\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t\tfont-size: 1rem;\n\t\t\t\tsize: '4x';\n\t\t\t}\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  height: 120px;\n  margin-top: 3rem;\n  width: 100%;\n  background: ", ";\n  display: grid;\n  grid-template-columns: repeat(3, 33%);\n  color: #fff;\n  @media (max-width: 700px) {\n    grid-template-columns: 20% 80%;\n    padding-bottom: 2rem;\n  }\n  .logo {\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    h3 {\n      font-size: 3rem;\n      font-weight: 300;\n      margin-left: 2rem;\n    }\n    @media (max-width: 700px) {\n      h3 {\n        display: none;\n      }\n    }\n  }\n  .links {\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: repeat(3, auto);\n    text-align: center;\n    margin: 1rem 0;\n    padding: 1rem;\n    align-items: center;\n    @media (max-width: 700px) {\n      grid-template-columns: repeat(3, auto);\n    }\n    a {\n      font-size: 1.5rem;\n      text-align: center;\n      color: #fff;\n      text-decoration: none;\n    }\n  }\n  .follow {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    a {\n      color: #fff;\n      padding: 2rem;\n    }\n    @media (max-width: 700px) {\n      justify-content: space-around;\n      width: 100vw;\n      align-items: center;\n      a {\n        margin: 0;\n        padding: 0;\n        font-size: 1rem;\n        size: '4x';\n      }\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -134,80 +134,76 @@ var StyledFooter = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div(
   return props.theme.primary;
 });
 
-var Footer = function Footer(props) {
+var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledFooter, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["Logo"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/titleIcon.png",
+    src: "static/iconWhite.png",
     alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }, "sndrnhm fotografie")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "links",
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, "der fotograf")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
+    },
+    __self: this
+  }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Impressum"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
     },
     __self: this
   }, "Was wei\xDF ich")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "follow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -215,14 +211,13 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 94
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -230,14 +225,13 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
@@ -245,7 +239,7 @@ var Footer = function Footer(props) {
     size: "5x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 100
     },
     __self: this
   }))));
@@ -276,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Header.js";
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 10rem;\n\tmargin-left: 2rem;\n\tcursor: pointer;\n\timg {\n\t\tpadding: 1rem;\n\t\theight: 100%;\n\t}\n\t@media (max-width: 700px) {\n\t\tmargin-left: 0;\n\t\theight: 70px;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  height: 10rem;\n  margin-left: 2rem;\n  cursor: pointer;\n  img {\n    padding: 1rem;\n    height: 100%;\n  }\n  @media (max-width: 700px) {\n    margin-left: 0;\n    height: 70px;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -286,7 +280,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 0;\n\tpadding: 0;\n\tdisplay: flex;\n\tjustify-self: end;\n\talign-items: center;\n\ta {\n\t\tfont-size: 2rem;\n\t\tfont-weight: 300;\n\t\ttext-decoration: none;\n\t\tpadding: 1rem 3rem;\n\t\tcolor: ", ";\n\t\t:hover,\n\t\t:active {\n\t\t\tfont-style: italic;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tpadding: 1rem 1rem;\n\t\t\tfont-size: 1.7rem;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 0;\n  padding: 0;\n  display: flex;\n  justify-self: end;\n  align-items: center;\n  a {\n    font-size: 2rem;\n    font-weight: 300;\n    text-decoration: none;\n    padding: 1rem 3rem;\n    color: ", ";\n    :hover,\n    :active {\n      font-style: italic;\n    }\n    @media (max-width: 700px) {\n      padding: 1rem 1rem;\n      font-size: 1.7rem;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -296,7 +290,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\theight: 11vh;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tbackground: #fff;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  justify-content: space-between;\n  background: #fff;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -318,57 +312,63 @@ var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "static/titleIcon.png",
+    src: "static/icon.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 52
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Nav, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 57
     },
     __self: this
-  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "",
+  }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Kontakt")));
+  }, "Kontakt"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -397,7 +397,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Landing.js";
 
 function _templateObject6() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmax-width: 1300px;\n\tpadding: 0 2rem;\n\tmargin: 0 auto;\n\t@media (max-width: 700px) {\n\t\tpadding: 0;\n\t\t.hr {\n\t\t\tdisplay: none;\n\t\t}\n\t\t.second_heading {\n\t\t\tdisplay: none;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 1300px;\n  padding: 0 2rem;\n  margin: 0 auto;\n  @media (max-width: 700px) {\n    padding: 0;\n    .hr {\n      display: none;\n    }\n    .second_heading {\n      display: none;\n    }\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -407,7 +407,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tfont-size: 10rem;\n\tfont-weight: 300;\n\ttext-align: center;\n\tmargin: 2.5rem 0;\n\ttext-transform: uppercase;\n\t@media (max-width: 1200px) {\n\t\tfont-size: 7.5rem;\n\t}\n\t@media (max-width: 900px) {\n\t\tfont-size: 4rem;\n\t\tmargin-bottom: 0;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 10rem;\n  font-weight: 300;\n  text-align: center;\n  margin: 2.5rem 0;\n  text-transform: uppercase;\n  @media (max-width: 1200px) {\n    font-size: 7.5rem;\n  }\n  @media (max-width: 900px) {\n    font-size: 4rem;\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -417,7 +417,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 2rem auto;\n\tdisplay: block;\n\twidth: 40%;\n\ttext-align: center;\n\tpadding: 1rem 2rem;\n\ttext-decoration: none;\n\tbackground: none;\n\tfont-size: 2rem;\n\tfont-weight: 300;\n\tcolor: ", ";\n\tborder: 1px solid ", ";\n\tborder-radius: 3rem;\n\toutline: none;\n\t@media (min-width: 700px) {\n\t\tdisplay: none;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 2rem auto;\n  display: block;\n  width: 40%;\n  text-align: center;\n  padding: 1rem 2rem;\n  text-decoration: none;\n  background: none;\n  font-size: 2rem;\n  font-weight: 300;\n  color: ", ";\n  border: 1px solid ", ";\n  border-radius: 3rem;\n  outline: none;\n  @media (min-width: 700px) {\n    display: none;\n  }\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -427,7 +427,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin: 0 auto;\n\ttext-decoration: none;\n\tbackground: none;\n\tfont-size: 3rem;\n\tfont-weight: 300;\n\tcolor: #fff;\n\tborder: 2px solid #fff;\n\tpadding: 1rem 2rem;\n\tborder-radius: 3rem;\n\topacity: 0.5;\n\tcursor: pointer;\n\toutline: none;\n\t:hover,\n\t:active {\n\t\topacity: 1;\n\t}\n\t@media (max-width: 700px) {\n\t\tfont-size: 2rem;\n\t\topacity: 0.8;\n\t\tdisplay: none;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 0 auto;\n  text-decoration: none;\n  background: none;\n  font-size: 3rem;\n  font-weight: 300;\n  color: #fff;\n  border: 2px solid #fff;\n  padding: 1rem 2rem;\n  border-radius: 3rem;\n  opacity: 0.5;\n  cursor: pointer;\n  outline: none;\n  :hover,\n  :active {\n    opacity: 1;\n  }\n  @media (max-width: 700px) {\n    font-size: 2rem;\n    opacity: 0.8;\n    display: none;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -437,7 +437,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\twidth: 100%;\n\theight: 70vh;\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-image: url('./static/girl.jpg'); /* https://www.pexels.com/photo/woman-holding-black-camera-1854897/ */\n\tbackground-position: center;\n\tbackground-size: cover;\n\tdisplay: flex;\n\talign-items: center;\n\n\t@media (max-width: 700px) {\n\t\theight: 50vh;\n\t\ta {\n\t\t\tfont-size: 2rem;\n\t\t\topacity: 0.8;\n\t\t\tdisplay: none;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width: 100%;\n  height: 70vh;\n  padding: 0;\n  margin: 0;\n  background-image: url('./static/girl.jpg'); /* https://www.pexels.com/photo/woman-holding-black-camera-1854897/ */\n  background-position: center;\n  background-size: cover;\n  display: flex;\n  align-items: center;\n\n  @media (max-width: 700px) {\n    height: 50vh;\n    a {\n      font-size: 2rem;\n      opacity: 0.8;\n      display: none;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -447,7 +447,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\t@media (max-width: 700px) {\n\t\theight: 100vh;\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  @media (max-width: 700px) {\n    height: 100vh;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -503,7 +503,7 @@ var Landing = function Landing(props) {
       lineNumber: 113
     },
     __self: this
-  }, "sndrnhm fotografie"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+  }, "der fotograf"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 114
@@ -530,7 +530,7 @@ var Landing = function Landing(props) {
       lineNumber: 117
     },
     __self: this
-  }, "Fotos mit Herz"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MobileLink, {
+  }, "mein eigener slogan"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MobileLink, {
     href: "#profile",
     __source: {
       fileName: _jsxFileName,
@@ -550,13 +550,7 @@ var Landing = function Landing(props) {
       lineNumber: 124
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Landing);
@@ -581,7 +575,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/maxeuler/Desktop/SoftwareDev/SinaFoto/sina-website/frontend/components/Profile.js";
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tdisplay: grid;\n\tgrid-template-columns: 50% 50%;\n\tmargin: 5rem 0;\n\t@media (max-width: 700px) {\n\t\tgrid-template-columns: 100%;\n\t\tgrid-template-rows: 1fr 200px;\n\t\tgrid-row-gap: 20px;\n\t\tmargin-top: 0;\n\t\t:first-child {\n\t\t\tgrid-row: 2;\n\t\t}\n\t}\n\t.text {\n\t\tpadding: 3rem;\n\t\ttext-align: center;\n\t\theight: 100%;\n\t\tp {\n\t\t\tfont-size: 2rem;\n\t\t\tfont-weight: 300;\n\t\t}\n\t\th3 {\n\t\t\tfont-weight: 300;\n\t\t\tfont-size: 4rem;\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t}\n\t\t.signature {\n\t\t\tfont-size: 3rem;\n\t\t\tfont-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',\n\t\t\t\t'Lucida Sans', Arial, sans-serif;\n\t\t}\n\t\t@media (max-width: 700px) {\n\t\t\tpadding: 1rem;\n\t\t\tp {\n\t\t\t\tfont-size: 1.5rem;\n\t\t\t}\n\t\t\th3 {\n\t\t\t\tfont-size: 3rem;\n\t\t\t}\n\t\t\t.signature {\n\t\t\t\tfont-size: 2rem;\n\t\t\t}\n\t\t}\n\t}\n\t.img {\n\t\tbackground-image: url('./static/browngirl.jpeg');\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t\t@media (max-width: 700px) {\n\t\t\tbackground-size: cover;\n\t\t\tbackground-repeat: no-repeat;\n\t\t\tpadding: 0;\n\t\t\tmargin: 0;\n\t\t}\n\t}\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: grid;\n  grid-template-columns: 50% 50%;\n  margin: 10rem 0;\n  @media (max-width: 700px) {\n    grid-template-columns: 100%;\n    grid-template-rows: 1fr 200px;\n    grid-row-gap: 20px;\n    margin-top: 0;\n    :first-child {\n      grid-row: 2;\n    }\n  }\n  .text {\n    padding: 3rem 6rem;\n    text-align: center;\n    height: 100%;\n    p {\n      font-size: 2rem;\n      font-weight: 300;\n    }\n    h3 {\n      font-weight: 300;\n      font-size: 4rem;\n      margin: 0;\n      padding: 0;\n    }\n    .signature {\n      font-size: 3rem;\n      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',\n        'Lucida Sans', Arial, sans-serif;\n    }\n    @media (max-width: 700px) {\n      padding: 1rem;\n      p {\n        font-size: 1.4rem;\n      }\n      h3 {\n        font-size: 3rem;\n      }\n      .signature {\n        font-size: 2rem;\n      }\n    }\n  }\n  .img {\n    background-image: url('./static/browngirl.jpeg');\n    background-size: cover;\n    background-position: center;\n    @media (max-width: 700px) {\n      background-size: cover;\n      background-repeat: no-repeat;\n      padding: 0;\n      margin: 0;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -594,7 +588,7 @@ function _templateObject() {
 
 var Container = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div(_templateObject());
 
-var Profile = function Profile(props) {
+var Profile = function Profile() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
@@ -644,14 +638,14 @@ var Profile = function Profile(props) {
       lineNumber: 81
     },
     __self: this
-  }, "Eure,"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Lorem,"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "signature",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
-  }, "Sina")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Name")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "img",
     __source: {
       fileName: _jsxFileName,
