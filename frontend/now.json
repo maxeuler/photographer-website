@@ -1,0 +1,6 @@
+{
+	"version": 2,
+	"alias": "der-fotograf",
+	"name": "photographer-website",
+	"builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}
