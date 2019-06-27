@@ -1,4 +1,4 @@
-# Example for a Photographer Page
+# Example for a Photographer Page 📸
 
 [Live Demo 🔗](https://photographer-website.maxjuliuseuler.now.sh/)
 
