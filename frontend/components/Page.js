@@ -27,14 +27,21 @@ const theme = {
   secondary: '#eee',
 };
 
+const PageStyle = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
 const Page = props => (
   <ThemeProvider theme={theme}>
-    <>
+    <PageStyle>
       <GlobalStyle />
       <Header />
       {props.children}
       <Footer></Footer>
-    </>
+    </PageStyle>
   </ThemeProvider>
 );
 

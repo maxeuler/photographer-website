@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import Footer from '../components/Footer';
 
 class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -14,7 +13,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>{this.props.styleTags}</Head>
         <body>
           <Main />
